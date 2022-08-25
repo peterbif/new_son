@@ -5,7 +5,7 @@ session_start();
 
 require('time_out.php');
 
-@$_SESSION['user'];
+if(@$_SESSION['user'] ==="peterbif@yahoo.com"){
 
 //auto load classes required
 spl_autoload_register(function ($class) {
@@ -107,7 +107,10 @@ $result_sch = mysqli_fetch_assoc($query_sch);
 if (isset($_POST['reset3'])) {
 
     $_POST['set_time'] = " ";
-}
+}}else{
+           header("Location: index.php");      
+
+    }
 
 
 ?>

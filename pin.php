@@ -12,7 +12,7 @@ $db = new Connect();
 
 
 
-if ($_SESSION['user']) {
+if ($_SESSION['user'] === "peterbif@yahoo.com") {
 
 
 

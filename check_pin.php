@@ -5,7 +5,8 @@ session_start();
 
 require('time_out.php');
 
-@$_SESSION['user'];
+//echo 1;
+
 
 //auto load classes required
 spl_autoload_register(function ($class) {
@@ -14,6 +15,7 @@ spl_autoload_register(function ($class) {
 
 $db = new Connect();
 
+if(@$_SESSION['user'] ==="peterbif@yahoo.com"){
 
 
 
@@ -42,22 +44,13 @@ if (isset($_POST['update'])) {
     }
 }
 
+}else{
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+	 header("Location: index.php");
+}
 
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
