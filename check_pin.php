@@ -15,7 +15,7 @@ spl_autoload_register(function ($class) {
 
 $db = new Connect();
 
-if(@$_SESSION['user'] ==="peterbif@yahoo.com"){
+if((@$_SESSION['user'] ==="peterbif@yahoo.com") ||(@$_SESSION['user'] === "sadiqadetunji2016@gmail.com")){
 
 
 

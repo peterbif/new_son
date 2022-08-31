@@ -5,7 +5,7 @@ session_start();
 
 require('time_out.php');
 
-if(@$_SESSION['user'] ==="peterbif@yahoo.com"){
+if((@$_SESSION['user'] ==="peterbif@yahoo.com") || @$_SESSION['user'] ==="sadiqadetunji2016@gmail.com"){
 
 //auto load classes required
 spl_autoload_register(function ($class) {
