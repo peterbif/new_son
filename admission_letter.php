@@ -244,7 +244,7 @@ $result_bio = mysqli_fetch_assoc($query_bio);
 
                         <h4 align="center"> <strong>OFFER OF PROVISIONAL ADMISSION INTO <?php echo strtoupper(@$result_pro['program']); ?> <br />PROGRAMME (<?php echo strtoupper(@$record_res2['session']); ?> ACADEMIC SESSION)</strong></h4>
 
-                        <p>With reference to your application for admission into <strong> <?php echo ucwords(@$result_pro['program']); ?> Programme in the School of Health Information Management, University College Hospital, Ibadan</strong>, I have the pleasure to inform you that you have been offered provisional admission to pursue an academic programme leading to the award of <strong><?php echo strtoupper(@$result_pro['program']); ?> in HEALTH INFORMATION MANAGEMENT</strong>. The programme commences from 19th of November, 2021.  An arrangement for your Medical Examination will be made when you resume.</p>
+                        <p>With reference to your application for admission into <strong> <?php echo ucwords(@$result_pro['program']); ?> Programme in the School of Health Information Management, University College Hospital, Ibadan</strong>, I have the pleasure to inform you that you have been offered provisional admission to pursue an academic programme leading to the award of <strong><?php echo strtoupper(@$result_pro['program']); ?> in HEALTH INFORMATION MANAGEMENT</strong>. The programme commences from 18th September, 2022.  An arrangement for your Medical Examination will be made when you resume.</p>
 
 
 
@@ -254,7 +254,7 @@ $result_bio = mysqli_fetch_assoc($query_bio);
 
                         <ol>
 
-                            <li>You fail to formally accept this offer by paying the acceptance fee of <strong>&#8358;25, 000.00</strong>. <strong>NHIS fee of N2,000.00</strong>  and 50% of your school fees within two (2 weeks) after
+                            <li>You fail to formally accept this offer by paying the acceptance fee of <strong>&#8358;25, 000.00</strong>. <strong>NHIS fee of N2,000.00</strong>  and 60% of your school fees within two (2 weeks) after
 
                          printing of admission letter.</li>
 
@@ -282,7 +282,7 @@ $result_bio = mysqli_fetch_assoc($query_bio);
 
                         <p class="principal">Yours faithfully,</p>
 
-                        <p class="principal"><img src="saved_images/sig.jpg" height="35px" width="350px;"></p>
+                        <p class="principal"><img src="saved_images/sig2.jpg" height="100px" width="300px;"></p>
 
                         <p class="principal">O. Lanlehin <br>
 

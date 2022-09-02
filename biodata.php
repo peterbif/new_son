@@ -119,7 +119,7 @@ if($_SESSION['user']) {
     @$result_pro_cut = $db->selectProgram2(@$record_pin['pin_no_id']);
     @$record_pro_cut = mysqli_fetch_assoc($result_pro_cut);
 
-    @$program_cut = $record_pro_cut['programs_id'];
+     @$program_cut = $record_pro_cut['programs_id'];
 
     //query cut_off_mark table
     @$query_cutoff = $db->selectCutOffMarks(@$school, $session, $program_cut);
@@ -1534,8 +1534,23 @@ else{
                                                     <form class="form-horizontal"  method="post" autocomplete="off" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF'])?>" enctype="multipart/form-data">
                                                         <h3>Score: <?php if(@$result_score['student_score']){ echo '<span style="color: forestgreen"><strong>'. @$result_score['student_score'].'</strong></span>';} else{ echo 'N/A';}?> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Admission Status:  <?php if(@$result_score['student_score'] && @$result_score['admin_status_id']) {echo '<span style="color: forestgreen"><strong>'. @$result_score['status'] . '</strong></span>';}      ?> </h3>
                                                         <h3 class="text-center"> <?php if(@$result_score['student_score'] && $result_cutoff['score'] && (@$result_score['student_score'] >= $result_cutoff['score']) && (@$result_score['admin_status_id'] == 6)) {echo  '<br/> ' .'<a href="admission_letter.php" target="_blank"><span style="color: orangered">Print Admission Letter</span></a>' ;}  ?> </h3>
-                                                        <h3 class="text-center"> <?php if(@$result_score['student_score'] && $result_cutoff['score'] && (@$result_score['student_score'] >= $result_cutoff['score']) && (@$result_score['admin_status_id'] == 6)) {echo  '<br/> ' .'<a href="school_fees.docx" target="_blank"><span style="color: orangered">Print Break Down of School Fees</span></a>' ;}  ?> </h3>
+                                                        <h3 class="text-center"> <?php 
+                                                        
+                                                        // if(@$result_score['student_score'] && $result_cutoff['score'] && (@$result_score['student_score'] >= $result_cutoff['score']) && (@$result_score['admin_status_id'] == 6)) ;
+                                                        if(@$result_score['student_score'] && $result_cutoff['score'] && (@$result_score['student_score'] >= $result_cutoff['score']) && (@$result_score['admin_status_id'] == 6)) 
+                                                        
+                                                        
+                                                        { 
+                                                            
+                                                            if($program_cut == 1){echo '<br/> ' .'<a href="ND_school_fees.pdf" target="_blank"><span style="color: orangered">Print Break Down of School Fees</span></a>' ;}
+                                                            
+                                                            if($program_cut == 2){echo '<br/> ' .'<a href="HND_school_fees.pdf" target="_blank"><span style="color: orangered">Print Break Down of School Fees</span></a>' ;}
 
+                                                            if($program_cut == 5){echo '<br/> ' .'<a href="ND_school_fees.pdf" target="_blank"><span style="color: orangered">Print Break Down of School Fees</span></a>' ;}
+
+                                                            ;}  ?></h3>
+
+                                                        
                                                     </form>
                                                 </div>
 

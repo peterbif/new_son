@@ -1,4 +1,3 @@
-#/classes
-#/thumbs
-#/uploads
-#connection.php
+/classes
+/thumbs
+connection.php
