@@ -284,7 +284,7 @@ $result_bio = mysqli_fetch_assoc($query_bio);
 
                         <p class="principal"><img src="saved_images/sig2.jpg" height="100px" width="300px;"></p>
 
-                        <p class="principal">O. Lanlehin <br>
+                        <p class="principal">O. A. Omolade <br>
 
                             <strong>Head of School</strong>
 
