@@ -4,8 +4,8 @@ class Connect
 {
 
     private $hostname = "localhost";
-    private $db_name = "son_2020";
-    private $username = "root";
+    private $db_name = "son";
+    private $username = "peterbif";
     private $password = "Pe12te34@r";
 
     public $link;
