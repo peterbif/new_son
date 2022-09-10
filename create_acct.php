@@ -25,6 +25,8 @@ $db = new Connect();
 //@$result = $db->selectSchools();
 //$row = mysqli_fetch_assoc($result);
 
+if($_SESSION['pin']){
+
 
 if(isset($_POST['create'])) {
 
@@ -94,6 +96,12 @@ else{
 }
 
 }
+
+
+}else{
+
+    header("Location: index.php");
+  }
 
 
 

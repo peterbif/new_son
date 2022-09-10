@@ -252,6 +252,9 @@ if (isset($_POST['login'])) {
         </div>  -->
 
           <div class="marquee">
+
+           <p id="div1"><span style="color: deeppink; background-color: #FFFFFF" id="son">The application Form into School of Nursing, UCH, Ibadan for 2022/2023 Academic Session is closed  ..... <i class="fa fa-hand-o-right" aria-hidden="true"></i> </span>
+          </p>
           <!-- <p id="div1"><span style="color: deeppink; background-color: #FFFFFF" id="son">School of Nursing Examination Result ..... <i class="fa fa-hand-o-right" aria-hidden="true"></i>  &nbsp;<a href="https://son.uch-ibadan.org.ng/" target="_blank">Click here</a></span>
           </p> -->
            <!-- <p id="div2"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <span style="color: purple; background-color: #FFFFFF">Sales of Admission Forms for POST-BASIC PERIOPERATIVE NURSING COURSE For 2021/2022 Academic Session are still on ..... <i class="fa fa-hand-o-right" aria-hidden="true"></i>  &nbsp;<a href="https://pns.uch-ibadan.org.ng/" target="_blank">click here for more details</a></span></p>
@@ -271,9 +274,9 @@ if (isset($_POST['login'])) {
                         <div align="left"> <span class="login-button button"> <i class="fa fa-sign-in" v-on:click=topForm=!topForm></i></span></div>
                     </div>-->
 
-                    <div class="col-md-6">
+                    <!-- <div class="col-md-6">
                         <div align="right"><span class="login-button button"> <i class="fa fa-pencil" v-on:click=topForm=!topForm></i> </span> </div>
-                    </div>
+                    </div> -->
 
                 </div> <br />
 
@@ -282,7 +285,7 @@ if (isset($_POST['login'])) {
                     <div class="col-md-6">
 
                         <div v-if="topForm">
-                            <div class="form-popup2 input-group">
+                            <!-- <div class="form-popup2 input-group">
                                 <form class="form-horizontal" method="post" autocomplete="off" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>" enctype="multipart/form-data">
 
                                     <div class="input-container">
@@ -297,7 +300,7 @@ if (isset($_POST['login'])) {
                                 </form>
                                   
                             
-                            </div>
+                            </div> -->
                         </div>
 
                         <!--login form-->
@@ -379,12 +382,12 @@ if (isset($_POST['login'])) {
             $(function() {
 
                 var counter = 0,
-                    divs = $('#div1, #div4, #div5');
+                    divs = $('#div1 /*, #div4, #div5*/');
 
                 function showDiv() {
                     divs.hide() // hide all divs
                         .filter(function(index) {
-                            return index == counter % 3;
+                            return index == counter % 1;
                         }) // figure out correct div to show
                         .show('slow'); // and show it
 
