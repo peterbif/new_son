@@ -253,7 +253,7 @@ if (isset($_POST['login'])) {
 
           <div class="marquee">
 
-           <p id="div1"><span style="color: deeppink; background-color: #FFFFFF" id="son">The application Form into School of Nursing, UCH, Ibadan for 2022/2023 Academic Session is closed  ..... <i class="fa fa-hand-o-right" aria-hidden="true"></i> </span>
+           <p id="div1"><span style="color: deeppink; background-color: #FFFFFF" id="son">The Application Form into School of Nursing, UCH, Ibadan for 2022/2023 Academic Session is closed  ..... <i class="fa fa-hand-o-right" aria-hidden="true"></i> </span>
           </p>
           <!-- <p id="div1"><span style="color: deeppink; background-color: #FFFFFF" id="son">School of Nursing Examination Result ..... <i class="fa fa-hand-o-right" aria-hidden="true"></i>  &nbsp;<a href="https://son.uch-ibadan.org.ng/" target="_blank">Click here</a></span>
           </p> -->
