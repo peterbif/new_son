@@ -274,9 +274,9 @@ if (isset($_POST['login'])) {
                         <div align="left"> <span class="login-button button"> <i class="fa fa-sign-in" v-on:click=topForm=!topForm></i></span></div>
                     </div>-->
 
-                    <div class="col-md-6">
+                    <!-- <div class="col-md-6">
                         <div align="right"><span class="login-button button"> <i class="fa fa-pencil" v-on:click=topForm=!topForm></i> </span> </div>
-                    </div> 
+                    </div>  -->
 
                 </div> <br />
 
@@ -285,7 +285,7 @@ if (isset($_POST['login'])) {
                     <div class="col-md-6">
 
                         <div v-if="topForm">
-                             <div class="form-popup2 input-group">
+                             <!-- <div class="form-popup2 input-group">
                                 <form class="form-horizontal" method="post" autocomplete="off" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>" enctype="multipart/form-data">
 
                                     <div class="input-container">
@@ -300,7 +300,7 @@ if (isset($_POST['login'])) {
                                 </form>
                                   
                             
-                            </div> 
+                            </div>  -->
                         </div>
 
                         <!--login form-->
