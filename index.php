@@ -252,7 +252,8 @@ if (isset($_POST['login'])) {
         </div>  -->
 
           <div class="marquee">
-          <p id="div1"><span style="color: deeppink; background-color: #FFFFFF" id="son">List of School of Nursing, UCH, Ibadan, Applicants for Entrance Examination starting from Wednesday, 14th of September, 2022  ..... <i class="fa fa-hand-o-right" aria-hidden="true"></i>  &nbsp;<a href="son.pdf" target="_blank">Click here</a></span>
+          <p id="div1"><span style="color: deeppink; background-color: #FFFFFF" id="son">List of School of Nursing, UCH, Ibadan, Applicants for Entrance Examination starting from Wednesday, 14th of September, 2022  .....  <i class="fa fa-hand-o-right" aria-hidden="true"></i>  &nbsp;<a href="son.pdf" target="_blank">Click here</a>  &nbsp; &nbsp; Venue: Chief Adebayo Akande hall , off the University of Ibadan - Ojoo road, Ajibode area, Ibadan. Oyo state. Nigeria
+        </span>
           </p>
            <p id="div2"><span style="color: deeppink; background-color: #FFFFFF" id="son">The Application Form into School of Nursing, UCH, Ibadan for 2022/2023 Academic Session is closed  ..... <i class="fa fa-hand-o-right" aria-hidden="true"></i> </span>
           </p>
