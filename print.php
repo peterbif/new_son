@@ -164,7 +164,7 @@ else{
                             <th>Firstname</th>
                             <th>Othername</th>
                             <th>Gender</th>
-                            <th>DOB/Age</th>
+                            <!-- <th>DOB/Age</th> -->
                             <!-- <th>Marital Status</th>
                             <th>Exam NO</th>
 
