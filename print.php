@@ -164,7 +164,7 @@ else{
                             <th>Firstname</th>
                             <th>Othername</th>
                             <th>Gender</th>
-                            <!-- <th>DOB/Age</th> -->
+                            <th>DOB/Age</th>
                             <!-- <th>Marital Status</th>
                             <th>Exam NO</th>
 
@@ -216,7 +216,7 @@ else{
                                 <td class="td"><?php if(@$result) {echo $sn++;} ?></td>
                                 <td><img  align="right" src="thumbs/<?php echo @$image;?>" class="img-rounded" width="80px" height="80px" /></td>
                                 <td><?php echo @$form_no; ?></td>
-                                <!-- <td class="td"> <a href="admin_applicant.php?id=<?php /*echo @$applicant;*/?>" target="_blank" > <?php echo @$surname;?></a> -->
+                               <td class="td">  <!-- <a href="admin_applicant.php?id=<?php /*echo @$applicant;*/?>" target="_blank" >--> <?php echo @$surname;?> <!--</a> --></td>
                                 <td><?php echo @$firstname; ?></td>
                                 <td><?php echo @$othername; ?></td>
                                 <td><?php echo @$gender; ?></td>
