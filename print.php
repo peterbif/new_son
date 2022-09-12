@@ -184,7 +184,7 @@ else{
 
                             if (@$result){
                                 @$image = $result['capture'];
-                                @$form_no = $result['code'];
+                                @$form_no = $result['form_no'];
                                 @$surname = $result['bsurname'];
                                 @$firstname = $result['bfirstname'];
                                 @$othername = $result['bothername'];
