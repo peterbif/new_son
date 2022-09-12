@@ -216,7 +216,7 @@ else{
                                 <td class="td"><?php if(@$result) {echo $sn++;} ?></td>
                                 <td><img  align="right" src="thumbs/<?php echo @$image;?>" class="img-rounded" width="80px" height="80px" /></td>
                                 <td><?php echo @$form_no; ?></td>
-                                <td class="td"> <a href="admin_applicant.php?id=<?php echo @$applicant;?>" target="_blank" > <?php echo @$surname;?></a>
+                                <!-- <td class="td"> <a href="admin_applicant.php?id=<?php /*echo @$applicant;*/?>" target="_blank" > <?php echo @$surname;?></a> -->
                                 <td><?php echo @$firstname; ?></td>
                                 <td><?php echo @$othername; ?></td>
                                 <td><?php echo @$gender; ?></td>
@@ -228,8 +228,8 @@ else{
                                 <td><?php echo @$state_of_res; ?></td>
                                 <td><?php echo @$lg_of_origin; ?></td>
                                 <td><?php echo @$state_of_origin; ?></td>-->
-                                <td><?php echo @$email; ?></td>
-                                <td><?php echo @$phone_no; ?></td>
+                                <!-- <td><?php echo @$email; ?></td>
+                                <td><?php echo @$phone_no; ?></td> -->
                                 <!--  <td><?php echo "Nil" ; ?></td>-->
 
 
