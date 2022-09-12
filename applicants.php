@@ -283,7 +283,7 @@ if(isset($_POST['search_button'])) {
                             ?>
                             <tr>
                                 <td class="td"><?php if(@$result) {echo $sn++;} ?></td>
-                                <td><img  align="right" src="uploads/<?php echo @$image;?>" class="img-rounded" width="80px" height="80px" /></td>
+                                <td><img  align="right" src="thumbs/<?php echo @$image;?>" class="img-rounded" width="80px" height="80px" /></td>
                                 <td><?php echo @$form_no; ?></td>
                                 <td class="td"> <a href="admin_applicant.php?id=<?php echo @$applicant;?>" target="_blank" > <?php echo @$surname;?></a>
                                 <td><?php echo @$firstname; ?></td>
