@@ -173,8 +173,8 @@ else{
                             <th>State of Res</th>
                             <th>lg of Origin</th>
                             <th>State of Origin</th>-->
-                            <th>Email</th>
-                            <th>Phone NO</th>
+                            <!-- <th>Email</th>
+                            <th>Phone NO</th> -->
                             <!--<th>Nationality</th>-->
 
                         </tr>
