@@ -252,15 +252,15 @@ if (isset($_POST['login'])) {
         </div>  -->
 
           <div class="marquee">
-          <p id="div1"><span style="color: deeppink; background-color: #FFFFFF" id="son">List of School of Nursing, UCH, Ibadan, Applicants for Entrance Examination starting from Wednesday, 14th of September, 2022  .....  <i class="fa fa-hand-o-right" aria-hidden="true"></i>  &nbsp;<a href="son.pdf" target="_blank">Click here</a>  &nbsp; &nbsp; Venue: Chief Adebayo Akande hall , off the University of Ibadan - Ojoo road, Ajibode area, Ibadan. Oyo state. Nigeria
+          <p id="div1"><span style="color: deeppink; background-color: #FFFFFF" id="son">List of Shortlisted Applicants for Interviews for the School of Nursing , UCH, Ibadan .....  <i class="fa fa-hand-o-right" aria-hidden="true"></i>  &nbsp;<a href="applicant1.pdf" target="_blank">Click here</a>  &nbsp; &nbsp; Venue and Date for the Interviews:  &nbsp;<a href="date_of_interview.docx" target="_blank">Click here</a>
         </span>
           </p>
 
-          <p id="div2"><span style="color: deeppink; background-color: #FFFFFF" id="son">List of Perioperative Nursing, UCH, Ibadan, Applicants for Entrance Examination taking place on Friday, 16th of September, 2022  .....  <i class="fa fa-hand-o-right" aria-hidden="true"></i>  &nbsp;<a href="perio.pdf" target="_blank">Click here</a>  &nbsp; &nbsp; Venue: Chief Adebayo Akande hall , off the University of Ibadan - Ojoo road, Ajibode area, Ibadan. Oyo state. Nigeria
+          <!-- <p id="div2"><span style="color: deeppink; background-color: #FFFFFF" id="son">List of Perioperative Nursing, UCH, Ibadan, Applicants for Entrance Examination taking place on Friday, 16th of September, 2022  .....  <i class="fa fa-hand-o-right" aria-hidden="true"></i>  &nbsp;<a href="perio.pdf" target="_blank">Click here</a>  &nbsp; &nbsp; Venue: Chief Adebayo Akande hall , off the University of Ibadan - Ojoo road, Ajibode area, Ibadan. Oyo state. Nigeria
         </span>
           </p>
            <p id="div3"><span style="color: deeppink; background-color: #FFFFFF" id="son">The Application Form into School of Nursing, UCH, Ibadan for 2022/2023 Academic Session is closed  ..... <i class="fa fa-hand-o-right" aria-hidden="true"></i> </span>
-          </p>
+          </p> -->
          
            <!-- <p id="div2"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbysp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <span style="color: purple; background-color: #FFFFFF">Sales of Admission Forms for POST-BASIC PERIOPERATIVE NURSING COURSE For 2021/2022 Academic Session are still on ..... <i class="fa fa-hand-o-right" aria-hidden="true"></i>  &nbsp;<a href="https://pns.uch-ibadan.org.ng/" target="_blank">click here for more details</a></span></p>
           <p id="div3"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <span style="color: dodgerblue; background-color: #FFFFFF">Sales of Admission Forms for POST-BASIC OCCUPATIONAL HEALTH NURSING COURSE For 2021/2022 Academic are still on ..... <i class="fa fa-hand-o-right" aria-hidden="true"></i>  &nbsp;<a href="OCHN.pdf" target="_blank">click here for more details</a></span></p> -->
@@ -387,12 +387,12 @@ if (isset($_POST['login'])) {
             $(function() {
 
                 var counter = 0,
-                    divs = $('#div1 , #div2, #div3');
+                    divs = $('#div1');
 
                 function showDiv() {
                     divs.hide() // hide all divs
                         .filter(function(index) {
-                            return index == counter % 3;
+                            return index == counter % 1;
                         }) // figure out correct div to show
                         .show('slow'); // and show it
 
